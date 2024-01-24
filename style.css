@@ -12,6 +12,11 @@
         font-size: 48px;
 }
 
+.operator {
+        display: flex;
+        flex-wrap: wrap;
+}
+
 .operator > p {
         display: flex;
         justify-content: center;
@@ -24,8 +29,13 @@
         text-align: center;
 }
 
+.number {
+    display: flex;
+    flex-wrap: wrap;
+}
 .number > p {
         display: flex;
+        flex: 1 0 33%;
         justify-content: center;
         align-items: center;
         background-color: #FFFFFF;
@@ -39,6 +49,9 @@
 }
 
 .equal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #fa8664;
         font-size: 30px;
         width: 78px;
