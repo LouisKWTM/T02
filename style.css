@@ -13,8 +13,10 @@
 }
 
 .operator > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #E7E7E7;
-        flex-wrap: wrap;
         width: 78px;
         height: 80px;
         border: solid 1px #A9A9A9;
@@ -23,14 +25,15 @@
 }
 
 .number > p {
-        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #FFFFFF;
         border: solid 1px #A9A9A9;
         justify-content: center;
         text-align: center;
         width: 78px;
         height: 80px;
-        padding: 39px 18px 0px 18px;
         font-size: 30px;
 
 }
