@@ -1,7 +1,7 @@
 #display {
         background-color: black;
         width: 320px;
-        height: 80px;      
+        height: 80px;
 }
 
 #displayValue {
@@ -23,11 +23,21 @@
 }
 
 .number > p {
+        flex-wrap: wrap;
         background-color: #FFFFFF;
         border: solid 1px #A9A9A9;
+        justify-content: center;
+        text-align: center;
         width: 78px;
         height: 80px;
+        padding: 39px 18px 0px 18px;
         font-size: 30px;
 
+}
 
+.equal {
+        background-color: #fa8664;
+        font-size: 30px;
+        width: 78px;
+        align-self: stretch;
 }
