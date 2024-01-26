@@ -12,6 +12,11 @@
         font-size: 48px;
 }
 
+#pad {
+        display: flex;
+        margin: 1px;
+}
+
 .operator {
         display: flex;
         flex-wrap: wrap;
@@ -27,11 +32,13 @@
         border: solid 1px #A9A9A9;
         font-size: 30px;
         text-align: center;
+        margin: 0;
 }
 
 .number {
         display: flex;
         flex-wrap: wrap;
+        width: 240px;
 }
 
 .number > p {
@@ -43,10 +50,11 @@
         width: 78px;
         height: 80px;
         font-size: 30px;
+        margin: 0;
 
 }
 
-.equal {
+#equal {
         display: flex;
         justify-content: center;
         align-items: center;
