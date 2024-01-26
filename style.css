@@ -1,5 +1,6 @@
 #display {
         background-color: black;
+        border-radius: 10px 10px 0px 0px;
         width: 320px;
         height: 80px;
 }
@@ -20,6 +21,7 @@
 .operator {
         display: flex;
         flex-wrap: wrap;
+        margin: 2px;
 }
 
 .operator > p {
@@ -54,10 +56,16 @@
 
 }
 
+#zero {
+        border-radius: 0px 0px 0px 10px;
+}
+
 #equal {
         display: flex;
         justify-content: center;
         align-items: center;
+        border: solid 1px black;
+        border-radius: 0px 0px 10px 0px;
         background-color: #fa8664;
         font-size: 30px;
         width: 78px;
