@@ -9,6 +9,7 @@
         text-align: right;
         padding-right: 10px;
         line-height: 80px;
+        font-family: -apple-system, sans-serif;
         color: white;
         font-size: 48px;
 }
@@ -29,6 +30,7 @@
         justify-content: center;
         align-items: center;
         background-color: #E7E7E7;
+        font-family: -apple-system, sans-serif;
         width: 78px;
         height: 80px;
         border: solid 1px #A9A9A9;
@@ -47,6 +49,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: -apple-system, sans-serif;
         background-color: #FFFFFF;
         border: solid 1px #A9A9A9;
         width: 78px;
@@ -67,6 +70,7 @@
         border: solid 1px black;
         border-radius: 0px 0px 10px 0px;
         background-color: #fa8664;
+        font-family: -apple-systen, sans-serif;
         font-size: 30px;
         width: 78px;
         align-self: stretch;
